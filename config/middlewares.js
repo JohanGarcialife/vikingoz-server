@@ -21,6 +21,12 @@ module.exports = [
           upgradeInsecureRequests: null,
            }
            }
-  }
+  },
+  settings: {
+    cors: {
+      enabled: true,
+      origin: ['*']
+    },
+  },
   }
 ];
