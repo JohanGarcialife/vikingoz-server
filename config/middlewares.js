@@ -1,6 +1,7 @@
 module.exports = [
   'strapi::errors', 
   'strapi::cors',
+  //cors:{ loaded: true, load: [Getter], initialize: [Function: initialize] },
   'strapi::poweredBy',
   'strapi::logger',
   'strapi::query',
